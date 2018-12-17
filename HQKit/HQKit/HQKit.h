@@ -10,7 +10,8 @@
 #define HQKit_h
 
 
-#import "HQCategory.h"
+//#import "HQCategory.h"
+#import <HQCategory.h>
 
 
 #endif /* HQKit_h */
