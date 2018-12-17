@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   
-  spec.name         = "HQQQKit"  #名称，pod search 搜索的关键词,注意这里一定要和.podspec的名称一样,否则报错
+  spec.name         = "HQKit"  #名称，pod search 搜索的关键词,注意这里一定要和.podspec的名称一样,否则报错
   spec.version      = "0.0.1"  #version：版本号
   spec.summary      = "测试写的文件" #summary: 简介
 
