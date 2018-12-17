@@ -91,10 +91,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "podTestDemo", "HQKit/HQKit/*.{h,m}"
+  spec.source_files  = "HQKit", "HQKit/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "HQKit/*/*.h"
+  spec.public_header_files = "HQKit/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
