@@ -120,7 +120,6 @@
 		697E22C121A25B5400DC658F /* HQCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCategory.h; sourceTree = "<group>"; };
 		697E22C221A25BA800DC658F /* UIImage+HQ_QRCodeImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HQ_QRCodeImage.h"; sourceTree = "<group>"; };
 		697E22C321A25BA800DC658F /* UIImage+HQ_QRCodeImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HQ_QRCodeImage.m"; sourceTree = "<group>"; };
-		697E22C521A25D8700DC658F /* HQKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQKit.h; sourceTree = "<group>"; };
 		697E22C621A2636400DC658F /* NSString+HQ_Pattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HQ_Pattern.h"; sourceTree = "<group>"; };
 		697E22C721A2636400DC658F /* NSString+HQ_Pattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HQ_Pattern.m"; sourceTree = "<group>"; };
 		697E22CA21A2643700DC658F /* NSPredicate.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NSPredicate.md; sourceTree = "<group>"; };
@@ -215,7 +214,6 @@
 				697E229921A25B0700DC658F /* LaunchScreen.storyboard */,
 				697E229C21A25B0700DC658F /* Info.plist */,
 				697E229D21A25B0700DC658F /* main.m */,
-				697E22C521A25D8700DC658F /* HQKit.h */,
 			);
 			path = HQKit;
 			sourceTree = "<group>";

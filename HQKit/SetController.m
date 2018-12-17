@@ -7,7 +7,7 @@
 //
 
 #import "SetController.h"
-#import "HQKit.h"
+#import "HQCategory.h"
 @interface SetController ()
 
 

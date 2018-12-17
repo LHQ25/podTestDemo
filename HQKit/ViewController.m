@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "HQKit.h"
+
 @interface ViewController ()<UITableViewDelegate , UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic , strong) NSArray *titleArray;
