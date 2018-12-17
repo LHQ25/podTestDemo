@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <objc/runtime.h>
 
 @interface ViewController ()<UITableViewDelegate , UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -25,6 +26,12 @@
 //    self.tf.borderStyle = UITextBorderStyleRoundedRect;
 //    [self.view addSubview:self.tf];
     
+    NSArray *arr = @[@"111",@"222",@"333"];
+    @try {
+        NSLog(@"%@",arr[10]);
+    } @catch (NSException *exception) {
+        NSLog(@"%@",exception);
+    }
     
     
     

@@ -30,9 +30,6 @@
 		69301F9921A7A67E00B40B98 /* NSDateFormatter.md in Resources */ = {isa = PBXBuildFile; fileRef = 69301F9821A7A67E00B40B98 /* NSDateFormatter.md */; };
 		69301F9B21A7AB2B00B40B98 /* NSDateInterval.md in Resources */ = {isa = PBXBuildFile; fileRef = 69301F9A21A7AB2B00B40B98 /* NSDateInterval.md */; };
 		69301F9D21A7AEF300B40B98 /* NSDate.md in Resources */ = {isa = PBXBuildFile; fileRef = 69301F9C21A7AEF300B40B98 /* NSDate.md */; };
-		6930DF0D21B7647800C7948C /* MyStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6930DF0C21B7647800C7948C /* MyStackViewController.m */; };
-		69406C4D21C108D400062D52 /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69406C4C21C108D400062D52 /* AnimationController.m */; };
-		697D1B4721BA504900DE2F25 /* BlueToothController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697D1B4621BA504900DE2F25 /* BlueToothController.m */; };
 		697E229021A25AFC00DC658F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 697E228F21A25AFC00DC658F /* AppDelegate.m */; };
 		697E229321A25AFC00DC658F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697E229221A25AFC00DC658F /* ViewController.m */; };
 		697E229621A25AFC00DC658F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697E229421A25AFC00DC658F /* Main.storyboard */; };
@@ -44,7 +41,6 @@
 		697E22C421A25BA800DC658F /* UIImage+HQ_QRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 697E22C321A25BA800DC658F /* UIImage+HQ_QRCodeImage.m */; };
 		697E22C821A2636400DC658F /* NSString+HQ_Pattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 697E22C721A2636400DC658F /* NSString+HQ_Pattern.m */; };
 		697E22CB21A2643700DC658F /* NSPredicate.md in Resources */ = {isa = PBXBuildFile; fileRef = 697E22CA21A2643700DC658F /* NSPredicate.md */; };
-		69A6E90021C1EADA00E21C2B /* SetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A6E8FF21C1EADA00E21C2B /* SetController.m */; };
 		69A6E90321C1EB2D00E21C2B /* UIButton+HQ_QuickService.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A6E90221C1EB2D00E21C2B /* UIButton+HQ_QuickService.m */; };
 		69A6E90621C2278600E21C2B /* UITapGestureRecognizer+HQ_TapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A6E90521C2278600E21C2B /* UITapGestureRecognizer+HQ_TapService.m */; };
 		69A6E90C21C22B6F00E21C2B /* UIView+HQ_Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A6E90B21C22B6F00E21C2B /* UIView+HQ_Service.m */; };
@@ -95,12 +91,6 @@
 		69301F9821A7A67E00B40B98 /* NSDateFormatter.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = NSDateFormatter.md; sourceTree = "<group>"; };
 		69301F9A21A7AB2B00B40B98 /* NSDateInterval.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = NSDateInterval.md; sourceTree = "<group>"; };
 		69301F9C21A7AEF300B40B98 /* NSDate.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = NSDate.md; sourceTree = "<group>"; };
-		6930DF0B21B7647800C7948C /* MyStackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyStackViewController.h; sourceTree = "<group>"; };
-		6930DF0C21B7647800C7948C /* MyStackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyStackViewController.m; sourceTree = "<group>"; };
-		69406C4B21C108D400062D52 /* AnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
-		69406C4C21C108D400062D52 /* AnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
-		697D1B4521BA504900DE2F25 /* BlueToothController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueToothController.h; sourceTree = "<group>"; };
-		697D1B4621BA504900DE2F25 /* BlueToothController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothController.m; sourceTree = "<group>"; };
 		697E228B21A25AFC00DC658F /* HQKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		697E228E21A25AFC00DC658F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		697E228F21A25AFC00DC658F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,8 +115,6 @@
 		697E22CA21A2643700DC658F /* NSPredicate.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NSPredicate.md; sourceTree = "<group>"; };
 		697E22CC21A26A0400DC658F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		697E22CD21A26A0400DC658F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		69A6E8FE21C1EADA00E21C2B /* SetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetController.h; sourceTree = "<group>"; };
-		69A6E8FF21C1EADA00E21C2B /* SetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetController.m; sourceTree = "<group>"; };
 		69A6E90121C1EB2D00E21C2B /* UIButton+HQ_QuickService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+HQ_QuickService.h"; sourceTree = "<group>"; };
 		69A6E90221C1EB2D00E21C2B /* UIButton+HQ_QuickService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HQ_QuickService.m"; sourceTree = "<group>"; };
 		69A6E90421C2278600E21C2B /* UITapGestureRecognizer+HQ_TapService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+HQ_TapService.h"; sourceTree = "<group>"; };
@@ -201,14 +189,6 @@
 				697E228F21A25AFC00DC658F /* AppDelegate.m */,
 				697E229121A25AFC00DC658F /* ViewController.h */,
 				697E229221A25AFC00DC658F /* ViewController.m */,
-				6930DF0B21B7647800C7948C /* MyStackViewController.h */,
-				6930DF0C21B7647800C7948C /* MyStackViewController.m */,
-				697D1B4521BA504900DE2F25 /* BlueToothController.h */,
-				697D1B4621BA504900DE2F25 /* BlueToothController.m */,
-				69406C4B21C108D400062D52 /* AnimationController.h */,
-				69406C4C21C108D400062D52 /* AnimationController.m */,
-				69A6E8FE21C1EADA00E21C2B /* SetController.h */,
-				69A6E8FF21C1EADA00E21C2B /* SetController.m */,
 				697E229421A25AFC00DC658F /* Main.storyboard */,
 				697E229721A25B0700DC658F /* Assets.xcassets */,
 				697E229921A25B0700DC658F /* LaunchScreen.storyboard */,
@@ -441,19 +421,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				691B76F121A6381C0046FE57 /* PDFController.m in Sources */,
-				6930DF0D21B7647800C7948C /* MyStackViewController.m in Sources */,
 				691B76F421A638940046FE57 /* PDFView.m in Sources */,
 				697E22C421A25BA800DC658F /* UIImage+HQ_QRCodeImage.m in Sources */,
-				69406C4D21C108D400062D52 /* AnimationController.m in Sources */,
 				697E229321A25AFC00DC658F /* ViewController.m in Sources */,
-				69A6E90021C1EADA00E21C2B /* SetController.m in Sources */,
 				697E229E21A25B0700DC658F /* main.m in Sources */,
 				697E229021A25AFC00DC658F /* AppDelegate.m in Sources */,
 				697E22C821A2636400DC658F /* NSString+HQ_Pattern.m in Sources */,
 				69A6E90321C1EB2D00E21C2B /* UIButton+HQ_QuickService.m in Sources */,
 				69A6E90C21C22B6F00E21C2B /* UIView+HQ_Service.m in Sources */,
 				69A6E90621C2278600E21C2B /* UITapGestureRecognizer+HQ_TapService.m in Sources */,
-				697D1B4721BA504900DE2F25 /* BlueToothController.m in Sources */,
 				6910650821A4EC060083139D /* NSDate+HQ_Date.m in Sources */,
 				6910650B21A4EC280083139D /* NSString+HQ_Service.m in Sources */,
 			);
