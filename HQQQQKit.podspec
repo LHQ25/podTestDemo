@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "HQQQQKit"
   spec.version      = "0.0.2"
-  spec.summary      = "A short description of HQQQQKit."
+  spec.summary      = "HQQQQKit是一个测测测测测测测测测试文件"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-      pod测试练习
+      pod测试练习HQQQQKit是一个测测测测测测测测测试文件HQQQQKit是一个测测测测测测测测测试文件
                    DESC
 
   spec.homepage     = "https://github.com/LHQ25/podTestDemo.git"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/LHQ25/podTestDemo.git", :tag => "spec.version.to_s" }
+  spec.source       = { :git => "https://github.com/LHQ25/podTestDemo.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
